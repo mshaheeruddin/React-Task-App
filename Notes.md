@@ -40,14 +40,14 @@ Header.propTypes = {
 > App.js
 
 
-function App() {
-  return (
-    <div className="container">
-    //this {1} wil give an error warning as it is not string 
-          <Header title= {1} />
-    </div>
-  );
-}
+               function App() {
+                    return (
+                      <div className="container">
+                       this {1} wil give an error warning as it is not string 
+                         <Header title= {1} />
+                     </div>
+                    );
+                }
 
 
 # Styling
@@ -60,5 +60,5 @@ function App() {
 
 #### In line
 
-  <h1 style={{color: 'red', backgroundColor: 'black'}>{title}</h1>
+           <h1 style={{color: 'red', backgroundColor: 'black'}>{title}</h1>
 
